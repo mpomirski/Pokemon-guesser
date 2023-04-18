@@ -1,0 +1,35 @@
+.PokeGuesser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    width: auto;
+}
+
+.SpriteImg {
+    width: 80%;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Default {
+    background: aqua;
+}
+
+.Success {
+    background: green;
+}
+
+.FormContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProgressBar {
+    width: 125%;
+}
