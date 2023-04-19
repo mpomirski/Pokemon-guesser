@@ -100,7 +100,10 @@ function PokeGuesser() {
             setRestart={setDoRestartTimer}
           />
         </div>
-        <button onClick={() => setDoRestartTimer(true)}></button>
+        <button
+          onClick={() => setDoRestartTimer(true)}
+          style={{ display: "none" }}
+        ></button>
       </div>
     </div>
   );
